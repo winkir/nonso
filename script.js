@@ -380,6 +380,53 @@ else{
   console.log('no team win')
 };
 
+/**************** the switch statement **********/
+const day = 'monday';
 
+switch(day){
+  case 'monday':
+    console.log('sit at home');
+    break;
+  case 'tuesday':
+    console.log('Go for javascript');
+    break;
+  case 'wednesday':
+    console.log('Go to the gym');
+    break;
+  case 'thursday':
+  case 'friday':
+    console.log('Bake some cake');
+    break;
+  case 'saturday':
+  case 'sunday':
+    console.log('Write some code!'); 
+    break;
+  default:
+    console.log('Dont do anything');             
+}
 
+const Day = 'Monday';
+
+if (Day === 'Monday'){
+  console.log('just dey house');
+}
+
+else if (Day === 'tuesday'){
+  console.log('work day');
+}
+else if(Day === 'thursday' || Day === 'friday'){
+  console.log('bake some bread');
+}
+else if(Day === 'saturday' || Day === 'sunday'){
+  console.log('go to church');
+}
+
+else {
+  console.log('Go to bank');
+}
+
+/**************The ternary Operator******** */
+
+const age = 23;
+age >= 18 ? console.log('i love alcohol') : console.log('i like caprison');
 
